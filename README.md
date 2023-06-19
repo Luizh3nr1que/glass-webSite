@@ -11,6 +11,6 @@
  
 <br>
 
-<h1>Este projeto pode ser visto  <a href='https://luizh3nr1que.github.io/quiz-2.0/'>aqui</a></h1>
+<h1>Este projeto pode ser visto  <a href='https://luizh3nr1que.github.io/glass-webSite/'>aqui</a></h1>
 
 
