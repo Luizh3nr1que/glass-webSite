@@ -1,0 +1,69 @@
+@media screen and (max-width: 1180px) {
+    header {
+        width: 98%;
+    }
+
+    .containerMain {
+        width: 100%;
+    }
+
+    .redes {
+        right: 0;
+    }
+
+    .img img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 989px) {
+
+    .containerMain .escrita {
+        width: 30em;
+    }
+
+    .containerMain .escrita h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 793px) {
+
+    .containerMain .escrita {
+        width: 25em;
+    }
+
+    .containerMain .escrita h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .containerMain .escrita {
+        margin-top: 50px;
+        width: 45em;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .containerMain .escrita {
+        margin-top: 80px;
+        width: 40em;
+    }
+
+    .containerMain .escrita h1 {
+        font-size: 17px;
+    }
+
+    .containerMain .escrita p {
+        font-size: 15px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .icon {
+        display: block !important;
+    }
+}

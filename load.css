@@ -1,0 +1,63 @@
+.fundoLoad {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 1900;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 15px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1999;
+
+}
+
+.shape {
+    width: 50px;
+    height: 15px;
+    background-image: linear-gradient(144deg, #ce00f7, #52006d69 50%, #6600eb);
+    border-radius: 25px;
+    position: absolute;
+    animation: slide 1.9s linear infinite;
+    background-size: 200%;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100% - 50px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes gradientChange {
+
+    0%,
+    100% {
+        background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #6600eb);
+    }
+
+    50% {
+        background-image: linear-gradient(144deg, #6600eb, #5B42F3 50%, #AF40FF);
+    }
+}
