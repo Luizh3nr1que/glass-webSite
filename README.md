@@ -1,6 +1,6 @@
 # glass-webSite
 
-<b>Esse site que criei para treinar minhas habilidades de design e position UI. O objetivo deste projeto é me aprimorar na criação de interfaces visualmente atraentes e responsivas.<b>
+<b>Esse site que criei para treinar minhas habilidades de design e position. O objetivo deste projeto é me aprimorar na criação de interfaces visualmente atraentes e responsivas.<b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>
